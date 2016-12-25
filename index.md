@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to, rendysyabany.github.io
 
 You can use the [editor on GitHub](https://github.com/rendysyabany/rendys.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
