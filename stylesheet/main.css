@@ -186,7 +186,9 @@ a {
           margin: 20px 0 100px 0;
           width: 240px; }
           .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch:hover {
-            margin-top: 10px; } }
+            margin-top: 10px; }
+          .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch #ic-mail {
+            margin: -12px 0 0 70px; } }
   .main .left-content .main-left-content .box-footer #copyright {
     color: #848484;
     font-family: "Roboto", sans-serif;
@@ -254,6 +256,9 @@ a {
               height: 38px; }
     .main .right-content .main-right-content .box-gear .dev {
       margin: 70px 0 50px 0; }
+  @media only screen and (min-width: 300px) and (max-width: 568px) {
+    .main .right-content .main-right-content .box-gear {
+      margin: 50px 30px 50px 50px; } }
   .main .right-content .main-right-content .box-resume {
     width: 100%;
     height: auto;
