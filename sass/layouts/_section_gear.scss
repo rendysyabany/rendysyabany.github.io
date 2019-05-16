@@ -1,0 +1,38 @@
+.box-gear{
+    margin: 50px 50px 0 50px;
+
+    .my-gear{
+        
+        #gear-title{
+            color: $default-color;
+            font-family: $text-font-stack;
+            font-size: 20px;
+            font-weight: 300;
+
+            span{
+                font-weight: 500;
+            }
+        }
+
+        .item-list{
+            list-style: none;
+            padding-left: 0;
+            margin: 30px 0 10px -10px;
+
+            @include prefix((
+                flex-wrap: wrap,
+                display: flex
+            ), webkit moz ms);
+
+            li{
+                padding: 10px 10px;
+                @import '../components/gear_item';
+            }
+        }
+    }
+
+    .dev{
+        margin: 60px 0 50px 0;
+    }
+
+}

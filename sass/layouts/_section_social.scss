@@ -1,0 +1,63 @@
+.box-social{
+    margin: 40px auto 0 auto;
+    display: table;
+
+    .social{
+        display: inline-flex;
+
+        @import '../components/icon_item';
+
+        .ic-01{
+            background-image: url(../static/icons/ic_behance.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_behance.png);
+                
+            }
+        }
+
+        .ic-02{
+            background-image: url(../static/icons/ic_linkedin.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_linkedin.png);
+                
+            }
+        }
+
+        .ic-03{
+            background-image: url(../static/icons/ic_instagram.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_instagram.png);
+                
+            }
+        }
+
+        .ic-04{
+            background-image: url(../static/icons/ic_telegram.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_telegram.png);
+                
+            }
+        }
+
+        .ic-05{
+            background-image: url(../static/icons/ic_github.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_github.png);
+                
+            }
+        }
+
+        .ic-06{
+            background-image: url(../static/icons/ic_dribbble.png);
+            &:hover{
+                background-image: url(../static/icons/ic_hover_dribbble.png);
+                
+            }
+        }
+    }
+
+    .social-second{
+        margin-left: 10px;
+    }
+
+}

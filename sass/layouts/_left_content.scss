@@ -6,25 +6,7 @@
     
     .main-left-content{
         
-
-        .box-img{
-            width: 120px;
-            height: 120px;
-            overflow: hidden;
-            border-radius: 18px;
-            margin: 18% auto 0 auto;
-            @include prefix((
-                box-shadow: 20px 20px 40px -5px $ops-color-01
-            ), webkit moz);
-    
-            img{
-                width: 120%;
-                display: block;
-                margin-left: -8px;
-                margin-top: 0;
-    
-            }
-        }
+        @import '../components/ava';
 
         .box-title{
             margin: 70px auto 0 auto;
@@ -74,87 +56,7 @@
             }
         }
 
-        .box-social{
-            margin: 40px auto 0 auto;
-            display: table;
-
-            .social{
-                display: inline-flex;
-
-                .icons{
-                    width: 32px;
-                    height: 32px;
-                    background-size: 32px;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    border-radius: 50%;
-
-                    @include prefix((
-                        transition: all 600ms ease
-                    ), webkit moz);
-
-                    &:hover{
-                        @include prefix((
-                            box-shadow: 4px 8px 15px -5px $ops-color-01
-                        ), webkit moz);
-                    }
-
-                }
-
-                .ic-01{
-                    background-image: url(../static/icons/ic_behance.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_behance.png);
-                        
-                    }
-                }
-
-                .ic-02{
-                    background-image: url(../static/icons/ic_linkedin.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_linkedin.png);
-                        
-                    }
-                }
-
-                .ic-03{
-                    background-image: url(../static/icons/ic_instagram.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_instagram.png);
-                        
-                    }
-                }
-
-                .ic-04{
-                    background-image: url(../static/icons/ic_telegram.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_telegram.png);
-                        
-                    }
-                }
-
-                .ic-05{
-                    background-image: url(../static/icons/ic_github.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_github.png);
-                        
-                    }
-                }
-
-                .ic-06{
-                    background-image: url(../static/icons/ic_dribbble.png);
-                    &:hover{
-                        background-image: url(../static/icons/ic_hover_dribbble.png);
-                        
-                    }
-                }
-            }
-
-            .social-second{
-                margin-left: 10px;
-            }
-
-        }
+        @import '../layouts/section_social';
 
         .box-button{
             margin: 40px auto 0 auto;
@@ -166,102 +68,12 @@
                 padding-left: 0;
                 
                 li{
-                    .dl-link{
-
-                        .btn-download{
-                            opacity: 0.2;
-                            width: 240px;
-                            height: 60px;
-                            background-color: $secondary-color;
-                            border-radius: 4px;
-                            color: $default-color;
-                            font-family: $text-font-stack;
-            
-                            #btn-title{
-                                font-weight: 500;
-                                font-size: 15px;
-                                margin: 0 0 0 15px;
-                                padding: 12px 0 0 0;
-                                
-                            }
-        
-                            #btn-desc{
-                                margin-top: 5px;
-                                font-weight: 300;
-                                font-size: 10px;
-                                padding: 0 0 0 16px;
-                                display: inline-flex;
-                            }
-        
-                            #ic-download{
-                                position: absolute;
-                                width: 32px;
-                                margin: -13px 0 0 28px;
-                            }
-                        }
-                    }
-        
-                    .touch-link{
-                        
-                        .btn-touch{
-                            margin-left: 20px;
-                            width: 180px;
-                            height: 60px;
-                            background-color: $primary-color;
-                            border-radius: 4px;
-                            color: $default-color;
-                            font-family: $text-font-stack;
-
-                            @include prefix((
-                                box-shadow: 15px 15px 40px -5px $ops-color-04
-                            ), webkit moz);
-
-                            &:hover{
-                                @include prefix((
-                                    box-shadow: 15px 15px 40px -5px $ops-color-05
-                                ), webkit moz);
-                            }
-
-                            #btn-title{
-                                font-weight: 500;
-                                font-size: 15px;
-                                margin: 0 0 0 15px;
-                                padding: 12px 0 0 0;
-                                
-                            }
-        
-                            #btn-desc{
-                                margin-top: 5px;
-                                font-weight: 300;
-                                font-size: 10px;
-                                padding: 0 0 0 16px;
-                                display: inline-flex;
-                            }
-        
-                            #ic-mail{
-                                position: absolute;
-                                width: 30px;
-                                margin: -12px 0 0 16px;
-                            }
-                        }
-                    }
+                    @import '../components/btn_dl_pdf';
+                    @import '../components/btn_touchme';
                 }
             }
         }
 
-        .box-footer{
-            #copyright{
-                color: $ops-color-01;
-                font-family: $text-font-stack;
-                font-size: 13px;
-                font-weight: 300;
-                text-align: center;
-                margin: 0 auto;
-                bottom: 40px;
-                left: 0;
-                right: 0;
-                position: absolute;
-            }
-        }
+        @import './footer';
     }
 }

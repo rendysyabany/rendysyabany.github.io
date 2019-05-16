@@ -1,0 +1,30 @@
+.box-img{
+    animation: avabounce 0.8s linear infinite alternate;
+
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 18px;
+    margin: 18% auto 0 auto;
+    @include prefix((
+        box-shadow: 20px 20px 40px -5px $ops-color-01
+    ), webkit moz);
+
+    img{
+        width: 120%;
+        display: block;
+        margin-left: -8px;
+        margin-top: 0;
+
+    }
+}
+
+@keyframes avabounce {
+    0%,100% {
+        transform: translate(0, 0)
+    }
+
+    100% {
+        transform: translate(0, -15px)
+    }
+}

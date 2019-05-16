@@ -19,6 +19,7 @@ a {
   height: 100vh;
   position: fixed; }
   .main .left-content .main-left-content .box-img {
+    animation: avabounce 0.8s linear infinite alternate;
     width: 120px;
     height: 120px;
     overflow: hidden;
@@ -32,6 +33,11 @@ a {
       display: block;
       margin-left: -8px;
       margin-top: 0; }
+@keyframes avabounce {
+  0%,100% {
+    transform: translate(0, 0); }
+  100% {
+    transform: translate(0, -15px); } }
   .main .left-content .main-left-content .box-title {
     margin: 70px auto 0 auto;
     text-align: center; }
@@ -72,13 +78,16 @@ a {
         background-repeat: no-repeat;
         background-position: center;
         border-radius: 50%;
-        -webkit-transition: all 600ms ease;
-        -moz-transition: all 600ms ease;
-        transition: all 600ms ease; }
+        -webkit-transition: all 700ms ease-out;
+        -moz-transition: all 700ms ease-out;
+        transition: all 700ms ease-out; }
         .main .left-content .main-left-content .box-social .social .icons:hover {
           -webkit-box-shadow: 4px 8px 15px -5px #848484;
           -moz-box-shadow: 4px 8px 15px -5px #848484;
-          box-shadow: 4px 8px 15px -5px #848484; }
+          box-shadow: 4px 8px 15px -5px #848484;
+          -webkit-transition: all 200ms ease-in;
+          -moz-transition: all 200ms ease-in;
+          transition: all 200ms ease-in; }
       .main .left-content .main-left-content .box-social .social .ic-01 {
         background-image: url(../static/icons/ic_behance.png); }
         .main .left-content .main-left-content .box-social .social .ic-01:hover {
@@ -145,11 +154,18 @@ a {
         font-family: "Roboto", sans-serif;
         -webkit-box-shadow: 15px 15px 40px -5px #FF9CB6;
         -moz-box-shadow: 15px 15px 40px -5px #FF9CB6;
-        box-shadow: 15px 15px 40px -5px #FF9CB6; }
+        box-shadow: 15px 15px 40px -5px #FF9CB6;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
         .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch:hover {
           -webkit-box-shadow: 15px 15px 40px -5px #ff5a86;
           -moz-box-shadow: 15px 15px 40px -5px #ff5a86;
-          box-shadow: 15px 15px 40px -5px #ff5a86; }
+          box-shadow: 15px 15px 40px -5px #ff5a86;
+          -webkit-transition: all 300ms ease-in;
+          -moz-transition: all 300ms ease-in;
+          transition: all 300ms ease-in;
+          margin-top: -10px; }
         .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch #btn-title {
           font-weight: 500;
           font-size: 15px;
@@ -202,25 +218,36 @@ a {
       display: flex; }
       .main .right-content .main-right-content .box-gear .my-gear .item-list li {
         padding: 10px 10px; }
-        .main .right-content .main-right-content .box-gear .my-gear .item-list li .design-gear-link {
+        .main .right-content .main-right-content .box-gear .my-gear .item-list li .gear-link {
           width: 66px;
           height: 66px;
           background-color: #ffffff;
           display: flex;
-          border-radius: 8px; }
-          .main .right-content .main-right-content .box-gear .my-gear .item-list li .design-gear-link .box-item {
+          border-radius: 8px;
+          -webkit-transition: all 300ms ease-out;
+          -moz-transition: all 300ms ease-out;
+          transition: all 300ms ease-out; }
+          .main .right-content .main-right-content .box-gear .my-gear .item-list li .gear-link:hover {
+            -webkit-box-shadow: 5px 5px 30px -5px black;
+            -moz-box-shadow: 5px 5px 30px -5px black;
+            box-shadow: 5px 5px 30px -5px black;
+            -webkit-transition: all 300ms ease-in;
+            -moz-transition: all 300ms ease-in;
+            transition: all 300ms ease-in;
+            margin-top: -10px; }
+          .main .right-content .main-right-content .box-gear .my-gear .item-list li .gear-link .box-item {
             display: flex;
             justify-content: center;
             flex-direction: column;
             margin: 0 auto; }
-            .main .right-content .main-right-content .box-gear .my-gear .item-list li .design-gear-link .box-item .ic-design-gear {
+            .main .right-content .main-right-content .box-gear .my-gear .item-list li .gear-link .box-item .ic-design-gear {
               width: 38px;
               height: auto; }
-            .main .right-content .main-right-content .box-gear .my-gear .item-list li .design-gear-link .box-item .ic-special {
+            .main .right-content .main-right-content .box-gear .my-gear .item-list li .gear-link .box-item .ic-special {
               width: auto;
               height: 38px; }
     .main .right-content .main-right-content .box-gear .dev {
-      margin: 80px 0 50px 0; }
+      margin: 60px 0 50px 0; }
   .main .right-content .main-right-content .box-resume {
     width: 100%;
     height: auto;
