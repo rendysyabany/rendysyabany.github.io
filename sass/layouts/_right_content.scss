@@ -1,0 +1,112 @@
+.right-content{
+    background-color: $secondary-color;
+    height: auto;
+
+    .main-right-content{
+
+        .box-gear{
+            margin: 50px 50px 0 50px;
+
+            .my-gear{
+                
+                #gear-title{
+                    color: $default-color;
+                    font-family: $text-font-stack;
+                    font-size: 20px;
+                    font-weight: 300;
+
+                    span{
+                        font-weight: 500;
+                    }
+                }
+
+                .item-list{
+                    list-style: none;
+                    padding-left: 0;
+                    margin: 30px 0 10px -10px;
+
+                    @include prefix((
+                        flex-wrap: wrap,
+                        display: flex
+                    ), webkit moz ms);
+
+                    li{
+                        padding: 10px 10px;
+                        .design-gear-link{
+                            width: 66px;
+                            height: 66px;
+                            background-color: $default-color;
+                            display: flex;
+                            border-radius: 8px;
+
+                            .box-item{
+                                display: flex;
+                                justify-content: center;
+                                flex-direction: column;
+                                margin: 0 auto;
+
+                                .ic-design-gear{
+                                    width: 38px;
+                                    height: auto;
+                                }
+
+                                .ic-special{
+                                    width: auto;
+                                    height: 38px;
+                                }
+                            }
+                        }
+                    }
+
+                    .second{
+                        // margin-left: 20px;
+                    }
+                }
+            }
+
+            .dev{
+                margin: 80px 0 50px 0;
+            }
+
+        }
+
+        .box-resume{
+            width: 100%;
+            height: auto;
+            background-color: $primary-color;
+            padding: 30px 50px 30px 50px;
+            font-family: $text-font-stack;
+
+            #resume-title{
+                color: $default-color;
+                font-size: 20px;
+                font-weight: 300;
+                margin-bottom: 50px;
+
+                span{
+                    font-weight: 500;
+                }
+            }
+
+            .box-resume-item{
+                margin: 0 0 25px 0;
+                #year-comp{
+                    color: $ops-color-03;
+                    font-size: 12px;
+                    font-weight: 200;
+                    span{
+                        font-weight: 500;
+                    }
+                    margin: 0;
+                }
+
+                #company{
+                    color: $default-color;
+                    font-size: 16px;
+                    font-weight: 300;
+                    margin: 5px 0 0 0;
+                }
+            }
+        }
+    }
+}
