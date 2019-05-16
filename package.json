@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@webpack-cli/init": "^0.1.5",
+    "flexboxgrid-sass": "^8.0.5",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
+  }
+}

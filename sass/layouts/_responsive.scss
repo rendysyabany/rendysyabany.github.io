@@ -1,0 +1,32 @@
+@media only screen and (min-width: 568px) and (max-width: 1060px){
+    .left-content{
+        position: relative;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 568px){
+    .left-content{
+        position: relative;
+        height: auto;
+        padding: 0 1rem;
+
+        .main-left-content{
+
+            .box-title{
+                margin: 50px auto 0 auto;
+            }
+
+            .box-info{
+                margin: 25px 1rem 0 1rem;
+            }
+
+            .box-button{
+                ul{
+                    display: block;
+                    
+                }
+            }
+
+        }
+    }
+}
