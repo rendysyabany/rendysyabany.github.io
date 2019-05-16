@@ -181,6 +181,12 @@ a {
           position: absolute;
           width: 30px;
           margin: -12px 0 0 16px; }
+      @media only screen and (min-width: 300px) and (max-width: 568px) {
+        .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch {
+          margin: 20px 0 100px 0;
+          width: 240px; }
+          .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch:hover {
+            margin-top: 10px; } }
   .main .left-content .main-left-content .box-footer #copyright {
     color: #848484;
     font-family: "Roboto", sans-serif;
@@ -284,6 +290,25 @@ a {
       color: #89a7b1; }
     .main .right-content .main-right-content .box-volunteer .box-resume-item #company {
       color: #DD3965; }
+  .main .right-content .main-right-content .design-portfolio {
+    width: 100%; }
+    .main .right-content .main-right-content .design-portfolio .bound-design .design-item {
+      width: 100%;
+      display: block; }
+@media only screen and (min-width: 568px) and (max-width: 1060px) {
+  .main .left-content {
+    position: relative; } }
+@media only screen and (min-width: 300px) and (max-width: 568px) {
+  .main .left-content {
+    position: relative;
+    height: auto;
+    padding: 0 1rem; }
+    .main .left-content .main-left-content .box-title {
+      margin: 50px auto 0 auto; }
+    .main .left-content .main-left-content .box-info {
+      margin: 25px 1rem 0 1rem; }
+    .main .left-content .main-left-content .box-button ul {
+      display: block; } }
 
 .wrapper {
   box-sizing: border-box;

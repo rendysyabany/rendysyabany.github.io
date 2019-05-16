@@ -4,18 +4,21 @@ html(lang='en')
     head
         include meta.pug
         include link.pug
-        
+
         title Rendyansyah Sya'bany
     body
         main
             .main.container-fluid
                 .row
-                    .left-content.col-xs-6
+                    #main-left.left-content.col-xs-6
                         include section/left-content.pug
                             
-                    .right-content.col-xs-offset-6.col-xs-6
+                    #main-right.right-content.col-xs-offset-6.col-xs-6
                         include section/right-content.pug       
-                                
+                        
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")                                
+        script(src="./js/main.js")                                
+
                                 
                                 
                                 

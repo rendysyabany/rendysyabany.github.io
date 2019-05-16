@@ -45,3 +45,18 @@
         }
     }
 }
+
+@media only screen and (min-width: 300px) and (max-width: 568px){
+    .touch-link{
+                        
+        .btn-touch{
+            margin: 20px 0 100px 0;
+            width: 240px;
+    
+            &:hover{
+                margin-top: 10px;
+            }
+    
+        }
+    }
+}
