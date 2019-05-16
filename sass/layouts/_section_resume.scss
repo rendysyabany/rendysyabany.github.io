@@ -2,7 +2,7 @@
     width: 100%;
     height: auto;
     background-color: $primary-color;
-    padding: 30px 50px 30px 50px;
+    padding: 40px 40px 40px 70px;
     font-family: $text-font-stack;
 
     #resume-title{
@@ -24,13 +24,14 @@
             font-weight: 200;
             span{
                 font-weight: 500;
+                text-transform: uppercase;
             }
             margin: 0;
         }
 
         #company{
             color: $default-color;
-            font-size: 16px;
+            font-size: 17px;
             font-weight: 300;
             margin: 5px 0 0 0;
         }

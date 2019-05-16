@@ -196,7 +196,7 @@ a {
   background-color: #224e60;
   height: auto; }
   .main .right-content .main-right-content .box-gear {
-    margin: 50px 50px 0 50px; }
+    margin: 50px 40px 50px 70px; }
     .main .right-content .main-right-content .box-gear .my-gear #gear-title {
       color: #ffffff;
       font-family: "Roboto", sans-serif;
@@ -247,12 +247,12 @@ a {
               width: auto;
               height: 38px; }
     .main .right-content .main-right-content .box-gear .dev {
-      margin: 60px 0 50px 0; }
+      margin: 70px 0 50px 0; }
   .main .right-content .main-right-content .box-resume {
     width: 100%;
     height: auto;
     background-color: #DD3965;
-    padding: 30px 50px 30px 50px;
+    padding: 40px 40px 40px 70px;
     font-family: "Roboto", sans-serif; }
     .main .right-content .main-right-content .box-resume #resume-title {
       color: #ffffff;
@@ -269,12 +269,21 @@ a {
         font-weight: 200;
         margin: 0; }
         .main .right-content .main-right-content .box-resume .box-resume-item #year-comp span {
-          font-weight: 500; }
+          font-weight: 500;
+          text-transform: uppercase; }
       .main .right-content .main-right-content .box-resume .box-resume-item #company {
         color: #ffffff;
-        font-size: 16px;
+        font-size: 17px;
         font-weight: 300;
         margin: 5px 0 0 0; }
+  .main .right-content .main-right-content .box-volunteer {
+    background-color: #F4F3F3; }
+    .main .right-content .main-right-content .box-volunteer #resume-title {
+      color: #DD3965; }
+    .main .right-content .main-right-content .box-volunteer .box-resume-item #year-comp {
+      color: #89a7b1; }
+    .main .right-content .main-right-content .box-volunteer .box-resume-item #company {
+      color: #DD3965; }
 
 .wrapper {
   box-sizing: border-box;
