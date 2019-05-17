@@ -200,6 +200,10 @@ a {
     left: 0;
     right: 0;
     position: absolute; }
+@media only screen and (min-width: 300px) and (max-width: 568px) {
+  .main .left-content .main-left-content .box-title .title-desc {
+    font-size: 22px;
+    line-height: 32px; } }
 .main .right-content {
   background-color: #224e60;
   height: auto; }
