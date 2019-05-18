@@ -145,8 +145,7 @@ a {
           width: 32px;
           margin: -13px 0 0 28px; }
       .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch {
-        margin-left: 20px;
-        width: 180px;
+        width: 220px;
         height: 60px;
         background-color: #DD3965;
         border-radius: 4px;
@@ -180,7 +179,7 @@ a {
         .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch #ic-mail {
           position: absolute;
           width: 30px;
-          margin: -12px 0 0 16px; }
+          margin: -12px 0 0 48px; }
       @media only screen and (min-width: 300px) and (max-width: 568px) {
         .main .left-content .main-left-content .box-button ul li .touch-link .btn-touch {
           margin: 20px 0 100px 0;
