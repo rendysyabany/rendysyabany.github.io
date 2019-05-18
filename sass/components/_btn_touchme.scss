@@ -1,9 +1,8 @@
 .touch-link{
                         
     .btn-touch{
-        // margin-left: 20px;
-        // width: 180px;
-        width: 240px;
+        margin-left: 20px;
+        width: 180px;
         height: 60px;
         background-color: $primary-color;
         border-radius: 4px;
@@ -42,7 +41,7 @@
         #ic-mail{
             position: absolute;
             width: 30px;
-            margin: -12px 0 0 70px;
+            margin: -12px 0 0 16px;
         }
     }
 }

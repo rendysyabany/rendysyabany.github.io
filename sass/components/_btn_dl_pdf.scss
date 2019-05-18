@@ -1,7 +1,7 @@
 .dl-link{
 
     .btn-download{
-        opacity: 0.2;
+        opacity: 0.15;
         width: 240px;
         height: 60px;
         background-color: $secondary-color;
@@ -31,4 +31,9 @@
             margin: -13px 0 0 28px;
         }
     }
+}
+
+.disable{
+    pointer-events: none;
+    cursor: default;
 }
