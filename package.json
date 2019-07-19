@@ -2,7 +2,11 @@
   "dependencies": {
     "@webpack-cli/init": "^0.1.5",
     "flexboxgrid-sass": "^8.0.5",
-    "pug-cli": "^1.0.0-alpha6"
+    "pug-cli": "^1.0.0-alpha6",
+    "grunt": "^1.0.4",
+    "grunt-contrib-pug": "^2.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.5",

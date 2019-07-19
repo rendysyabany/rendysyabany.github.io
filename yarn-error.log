@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js add webpack-cli --dev
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.9.4/libexec/bin/yarn.js
 
 PATH: 
   /Users/rendysyabany/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,13 +14,24 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/rendysyabany/Documents/Works/Personal Web/syabany.github.io/node_modules/.bin/acorn'
+  Invariant Violation: could not find a copy of webpack to link in /Users/rendysyabany/Documents/Works/Personal Web/SyabanyCom/syabany.github.io/node_modules/@webpack-cli/generators/node_modules
+      at invariant (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:1745:15)
+      at PackageLinker.<anonymous> (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:49512:7)
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:92:30)
+      at /usr/local/Cellar/yarn/1.9.4/libexec/lib/cli.js:103:13
+      at process._tickCallback (internal/process/next_tick.js:68:7)
 
 npm manifest: 
   {
     "dependencies": {
+      "@webpack-cli/init": "^0.1.5",
       "flexboxgrid-sass": "^8.0.5",
-      "pug-cli": "^1.0.0-alpha6"
+      "pug-cli": "^1.0.0-alpha6",
+      "grunt": "^1.0.4",
+      "grunt-contrib-pug": "^2.0.0",
+      "grunt-contrib-sass": "^1.0.0",
+      "grunt-contrib-watch": "^1.1.0"
     },
     "devDependencies": {
       "browser-sync": "^2.26.5",
