@@ -16,6 +16,18 @@
         }
     }
 
+    #resume-title-fp{
+        color: $default-color;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        position: relative;
+
+        span{
+            font-weight: 500;
+        }
+    }
+
     .box-resume-item{
         margin: 0 0 25px 0;
         #year-comp{
