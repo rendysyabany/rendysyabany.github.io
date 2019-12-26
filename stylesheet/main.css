@@ -203,6 +203,9 @@ a {
     left: 0;
     right: 0;
     position: absolute; }
+  @media only screen and (max-height: 699px) {
+    .main .left-content .main-left-content .box-footer #copyright {
+      display: none; } }
 @media only screen and (min-width: 300px) and (max-width: 568px) {
   .main .left-content .main-left-content .box-title .title-desc {
     font-size: 22px;
@@ -315,7 +318,7 @@ a {
     .main .right-content .main-right-content .design-portfolio .bound-design .design-item {
       width: 100%;
       display: block; }
-@media only screen and (min-width: 568px) and (max-width: 1060px) {
+@media only screen and (min-width: 568px) and (max-width: 1090px) {
   .main .left-content {
     position: relative; } }
 @media only screen and (min-width: 300px) and (max-width: 568px) {
