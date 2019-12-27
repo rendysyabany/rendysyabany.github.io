@@ -60,6 +60,8 @@ a {
     font-weight: 300;
     font-size: 14px;
     line-height: 24px; }
+    .main .left-content .main-left-content .box-info #name {
+      font-weight: 400 !important; }
     .main .left-content .main-left-content .box-info .link-desc {
       color: #DD3965;
       font-weight: 400; }
