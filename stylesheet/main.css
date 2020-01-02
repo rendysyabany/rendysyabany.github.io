@@ -124,13 +124,27 @@ a {
       display: inline-flex;
       padding-left: 0; }
       .main .left-content .main-left-content .box-button ul li .dl-link .btn-download {
-        opacity: 0.15;
+        opacity: 1;
         width: 240px;
         height: 60px;
         background-color: #224e60;
         border-radius: 4px;
         color: #ffffff;
-        font-family: "Roboto", sans-serif; }
+        font-family: "Roboto", sans-serif;
+        -webkit-box-shadow: 15px 15px 40px -5px #9ab6bf;
+        -moz-box-shadow: 15px 15px 40px -5px #9ab6bf;
+        box-shadow: 15px 15px 40px -5px #9ab6bf;
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
+        .main .left-content .main-left-content .box-button ul li .dl-link .btn-download:hover {
+          -webkit-box-shadow: 15px 15px 40px -5px #89a7b1;
+          -moz-box-shadow: 15px 15px 40px -5px #89a7b1;
+          box-shadow: 15px 15px 40px -5px #89a7b1;
+          -webkit-transition: all 300ms ease-in;
+          -moz-transition: all 300ms ease-in;
+          transition: all 300ms ease-in;
+          margin-top: -10px; }
         .main .left-content .main-left-content .box-button ul li .dl-link .btn-download #btn-title {
           font-weight: 500;
           font-size: 15px;
@@ -312,7 +326,7 @@ a {
     .main .right-content .main-right-content .box-volunteer #resume-title {
       color: #DD3965; }
     .main .right-content .main-right-content .box-volunteer .box-resume-item #year-comp {
-      color: #89a7b1; }
+      color: #9ab6bf; }
     .main .right-content .main-right-content .box-volunteer .box-resume-item #company {
       color: #DD3965; }
   .main .right-content .main-right-content .design-portfolio {

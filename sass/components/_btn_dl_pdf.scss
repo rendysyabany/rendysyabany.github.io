@@ -1,13 +1,26 @@
 .dl-link{
 
     .btn-download{
-        opacity: 0.15;
+        opacity: 1;
         width: 240px;
         height: 60px;
         background-color: $secondary-color;
         border-radius: 4px;
         color: $default-color;
         font-family: $text-font-stack;
+
+        @include prefix((
+            box-shadow: 15px 15px 40px -5px $ops-color-08,
+            transition: all 300ms ease-out
+        ), webkit moz);
+
+        &:hover{
+            @include prefix((
+                box-shadow: 15px 15px 40px -5px $ops-color-09,
+                transition: all 300ms ease-in
+            ), webkit moz);
+            margin-top: -10px;
+        }
 
         #btn-title{
             font-weight: 500;
