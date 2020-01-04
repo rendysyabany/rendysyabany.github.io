@@ -6,7 +6,6 @@
     "url": "https://github.com/sponsors/ljharb"
   },
   "dependencies": {
-    
     "flexboxgrid-sass": "^8.0.5",
     "funding": "^1.0.9",
     "grunt": "^1.0.4",
