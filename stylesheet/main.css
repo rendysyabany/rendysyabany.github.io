@@ -61,7 +61,8 @@ a {
     font-size: 14px;
     line-height: 24px; }
     .main .left-content .main-left-content .box-info #name {
-      font-weight: 400 !important; }
+      font-weight: 400 !important;
+      color: #DD3965; }
     .main .left-content .main-left-content .box-info .link-desc {
       color: #DD3965;
       font-weight: 400; }
