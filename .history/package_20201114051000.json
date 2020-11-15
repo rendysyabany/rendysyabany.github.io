@@ -1,0 +1,23 @@
+{
+    "length": 16,
+    "name": "rendysyabany.github.io",
+    "funding": {
+        "type": "deep-equal@1.1.1, is-symbol@1.0.3, es-to-primitive@1.2.1, has-symbols@1.0.1, object-inspect@1.7.0, es-abstract@1.17.0-next.1, object.getownpropertydescriptors@2.1.0",
+        "url": "https://github.com/sponsors/ljharb"
+    },
+    "dependencies": {
+        "flexboxgrid-sass": "^8.0.5",
+        "funding": "^1.0.9",
+        "grunt": "^1.0.4",
+        "grunt-contrib-pug": "^2.0.0",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-watch": "^1.1.0",
+        "pug-cli": "^1.0.0-alpha6"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.10"
+    }
+}
