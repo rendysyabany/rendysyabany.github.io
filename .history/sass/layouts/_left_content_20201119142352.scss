@@ -1,32 +1,38 @@
-.left-content {
+.left-content{
     background-color: $default-color;
     padding: 0 2rem;
     height: 100vh;
     position: fixed;
-    display: grid;
-    .main-left-content {
-        align-self: center;
+    
+    .main-left-content{
+        
         @import '../components/ava';
-        .box-title {
+
+        .box-title{
             margin: 70px auto 0 auto;
             text-align: center;
-            .title-desc {
+            
+            .title-desc{
                 font-weight: 500;
                 font-size: 26px;
                 display: inline;
                 font-family: $text-font-stack;
             }
-            #desc-01 {
+
+            #desc-01{
                 color: $primary-color;
             }
-            #desc-02 {
+
+            #desc-02{
                 color: $ops-color-01;
             }
-            #desc-03 {
+
+            #desc-03{
                 color: $secondary-color;
             }
         }
-        .box-info {
+
+        .box-info{
             margin: 25px 60px 0 60px;
             text-align: center;
             color: $color-font-stack;
@@ -34,47 +40,63 @@
             font-weight: 300;
             font-size: 14px;
             line-height: 24px;
-            #info-desc {}
-            #name {
+
+            #info-desc{
+
+            }
+
+            #name{
                 font-weight: 400!important;
                 color: $primary-color;
             }
-            .link-desc {
+
+            .link-desc{
                 color: $primary-color;
                 font-weight: 400;
-                &:hover {
+
+                &:hover{
                     color: $secondary-color;
                     font-weight: 500;
                 }
             }
         }
+
         @import '../layouts/section_social';
-        .box-button {
+
+        .box-button{
             margin: 40px auto 0 auto;
             display: table;
-            ul {
+            
+            ul{
                 list-style: none;
                 display: inline-flex;
                 padding-left: 0;
-                li {
+                
+                li{
                     @import '../components/btn_dl_pdf';
                     @import '../components/btn_touchme';
                 }
             }
         }
+
         @import './footer';
     }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 568px) {
-    .left-content {
-        .main-left-content {
-            .box-title {
-                .title-desc {
+@media only screen and (min-width: 300px) and (max-width: 568px){
+
+    .left-content{
+        
+        .main-left-content{
+            
+            .box-title{
+                
+                .title-desc{
                     font-size: 22px;
                     line-height: 32px;
                 }
             }
         }
     }
+
 }

@@ -1,5 +1,5 @@
-.box-footer {
-    #copyright {
+.box-footer{
+    #copyright{
         color: $ops-color-01;
         font-family: $text-font-stack;
         font-size: 13px;
@@ -10,14 +10,13 @@
         left: 0;
         right: 0;
         position: absolute;
-        visibility: hidden;
     }
 }
 
-@media only screen and (max-width: 1090px) {
-    .box-footer {
-        #copyright {
-            visibility: visible;
+@media only screen and (max-height: 699px){
+    .box-footer{
+        #copyright{
+            display: none;
         }
     }
 }

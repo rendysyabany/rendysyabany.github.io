@@ -4,8 +4,8 @@
     height: 280px;
     overflow: hidden;
     border-radius: 18px;
-    margin: 14% auto 0 auto;
-    @include prefix(( box-shadow: 30px 30px 40px -5px #b3b3b3), webkit moz);
+    margin: 18% auto 0 auto;
+    @include prefix(( box-shadow: 20px 20px 40px -5px $ops-color-01), webkit moz);
     img {
         width: 103%;
         display: block;
