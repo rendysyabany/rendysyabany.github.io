@@ -8,7 +8,7 @@
     "dependencies": {
         "flexboxgrid-sass": "^8.0.5",
         "funding": "^1.0.9",
-        "grunt": "^1.3.0",
+        "grunt": "^1.5.3",
         "grunt-contrib-pug": "^2.0.0",
         "grunt-contrib-sass": "^2.0.0",
         "grunt-contrib-watch": "^1.1.0",
